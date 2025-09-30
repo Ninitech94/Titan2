@@ -216,6 +216,15 @@ const submitForm = async () => {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .project-image {
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+  }
 }
 
 .project-content {
