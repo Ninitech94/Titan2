@@ -316,6 +316,15 @@ const previousImage = () => {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .project-image {
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+  }
 }
 
 .project-content {
