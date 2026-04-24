@@ -45,7 +45,7 @@
         <h2>Kontakt</h2>
         <p>Ukoliko imate bilo kakvih pitanja slobodno nas kontaktirajte preko ove forme ili pozivom na broj telefona koji možete videti ispod.</p>
         
-        <form class="contact-form" @submit.prevent="submitForm">
+        <!-- <form class="contact-form" @submit.prevent="submitForm">
           <input type="text" placeholder="Vaše ime i prezime" v-model="form.name" required>
           <input type="email" placeholder="Vaš email" v-model="form.email" required>
           <input type="text" placeholder="Tema" v-model="form.subject" required>
@@ -53,7 +53,7 @@
           <button type="submit" :disabled="isSubmitting">
             {{ isSubmitting ? 'Šalje se...' : 'Pošaljite poruku' }}
           </button>
-        </form>
+        </form> -->
       </div>
     </section>
   </main>
