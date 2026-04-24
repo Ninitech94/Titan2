@@ -75,7 +75,7 @@
         </div>
 
         <div class="project-card">
-          <img src="/Images/VladislavaPetkovicaDisa.png" alt="Vladislava Petkovića Disa" class="project-image">
+          <img src="/Images/VladislavaPetkovicaDisa/IMG_6260.jpeg" alt="Vladislava Petkovića Disa" class="project-image">
           <div class="project-content">
             <h3>Stambeni kompleks u Vladislava Petkovica Disa Istok</h3>
             <p>Moderan stambeni kompleks sa 17 stanova različitih struktura.</p>
@@ -87,7 +87,7 @@
                 <strong>Broj stanova:</strong> 17
               </div>
               <div class="detail-item">
-                <strong>Završetak:</strong> Septembar 2028
+                <strong>Završetak:</strong> Jul 2027
               </div>
             </div>
             <div class="progress-bar">
@@ -98,6 +98,9 @@
               <a href="/VPD KATALOG - ISTOK_compressed.pdf" download="Vladislava Petkovica Disa - Katalog.pdf" class="download-button" rel="noopener noreferrer">
                 Preuzmi katalog
               </a>
+              <button @click="openGallery('vladislava-petkovica-disa')" class="gallery-button">
+                Galerija
+              </button>
             </div>
           </div>
         </div>
@@ -253,6 +256,16 @@ const galleries = {
       { src: '/Images/VojislavaIlica/image00010.jpeg', alt: 'Projekat Vojislava Ilića - Slika 3' },
       { src: '/Images/VojislavaIlica/image00011.jpeg', alt: 'Projekat Vojislava Ilića - Slika 4' },
       { src: '/Images/VojislavaIlica/image00012.jpeg', alt: 'Projekat Vojislava Ilića - Slika 5' }
+    ]
+  },
+  'vladislava-petkovica-disa': {
+    title: 'Stambeni kompleks u Vladislava Petkovica Disa Istok - Galerija',
+    images: [
+      { src: '/Images/VladislavaPetkovicaDisa/IMG_6260.jpeg', alt: 'Vladislava Petkovica Disa - Slika 1' },
+      { src: '/Images/VladislavaPetkovicaDisa/IMG_6262.jpeg', alt: 'Vladislava Petkovica Disa - Slika 2' },
+      { src: '/Images/VladislavaPetkovicaDisa/IMG_6263.jpeg', alt: 'Vladislava Petkovica Disa - Slika 3' },
+      { src: '/Images/VladislavaPetkovicaDisa/IMG_6264.jpeg', alt: 'Vladislava Petkovica Disa - Slika 4' },
+      { src: '/Images/VladislavaPetkovicaDisa/IMG_6265.jpeg', alt: 'Vladislava Petkovica Disa - Slika 5' }
     ]
   }
 }
