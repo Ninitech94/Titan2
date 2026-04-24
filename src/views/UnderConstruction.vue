@@ -74,6 +74,34 @@
           </div>
         </div>
 
+        <div class="project-card">
+          <img src="/Images/VladislavaPetkovicaDisa.png" alt="Vladislava Petkovića Disa" class="project-image">
+          <div class="project-content">
+            <h3>Stambeni kompleks u Vladislava Petkovica Disa Istok</h3>
+            <p>Moderan stambeni kompleks sa 17 stanova različitih struktura.</p>
+            <div class="project-details">
+              <div class="detail-item">
+                <strong>Lokacija:</strong>&nbsp;Vladislava Petkovica Disa
+              </div>
+              <div class="detail-item">
+                <strong>Broj stanova:</strong> 17
+              </div>
+              <div class="detail-item">
+                <strong>Završetak:</strong> Septembar 2028
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 0%"></div>
+            </div>
+            <p class="progress-text">0% završeno</p>
+            <div class="button-group">
+              <a href="/VPD KATALOG - ISTOK_compressed.pdf" download="Vladislava Petkovica Disa - Katalog.pdf" class="download-button" rel="noopener noreferrer">
+                Preuzmi katalog
+              </a>
+            </div>
+          </div>
+        </div>
+
         <!-- <div class="project-card">
           <img src="/Images/IMG_5507.jpeg" alt="Projekat 2" class="project-image">
           <div class="project-content">

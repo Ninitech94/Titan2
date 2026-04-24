@@ -43,7 +43,7 @@
     <section class="contact-section">
       <div class="container">
         <h2>Kontakt</h2>
-        <p>Ukoliko imate bilo kakvih pitanja slobodno nas kontaktirajte preko ove forme ili pozivom na broj telefona koji možete videti ispod.</p>
+        <p>Ukoliko imate bilo kakvih pitanja slobodno nas kontaktirajte pozivom na broj telefona koji možete videti ispod.</p>
         
         <!-- <form class="contact-form" @submit.prevent="submitForm">
           <input type="text" placeholder="Vaše ime i prezime" v-model="form.name" required>
