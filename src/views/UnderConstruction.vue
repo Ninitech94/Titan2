@@ -75,7 +75,7 @@
         </div>
 
         <div class="project-card">
-          <img src="/Images/VladislavaPetkovicaDisa/IMG_6260.jpeg" alt="Vladislava Petkovića Disa" class="project-image">
+          <img src="/Images/VladislavaPetkovicaDisa/IMG_6260.jpeg" alt="Vladislava Petkovića Disa" class="project-image" style="object-fit: contain; background: #f0f0f0;">
           <div class="project-content">
             <h3>Stambeni kompleks u Vladislava Petkovica Disa Istok</h3>
             <p>Moderan stambeni kompleks sa 17 stanova različitih struktura.</p>
