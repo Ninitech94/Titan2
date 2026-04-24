@@ -369,31 +369,31 @@ const previousImage = () => {
 }
 
 .project-content {
-  padding: 2rem;
+  padding: 1.2rem 1.5rem;
 }
 
 .project-content h3 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
   color: #2c3e50;
 }
 
 .project-content > p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
   color: #7f8c8d;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .project-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .detail-item {
   background: #f8f9fa;
-  padding: 0.8rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 5px;
   font-size: 0.9rem;
 }
@@ -416,7 +416,7 @@ const previousImage = () => {
   text-align: center;
   font-weight: bold;
   color: #27ae60;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .info-button {
